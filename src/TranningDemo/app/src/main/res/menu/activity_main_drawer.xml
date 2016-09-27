@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Adapter View Flipper" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="GridView" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="ArrayAdapter" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="AutoComplete TextView" />
+        <item
+            android:id="@+id/nav_list_view_activity"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="ListViewActivity" />
+        <item
+            android:id="@+id/nav_simple_adapter"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Simpple adapter" />
+        <item
+            android:id="@+id/nav_simple_list_view"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="SimpleListView" />
+        <item
+            android:id="@+id/nav_spinner"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Spinner" />
+        <item
+            android:id="@+id/nav_stack_view"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="StackView" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="BaseAdapter" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="ExpandableListAdapter" />
+
+            <item
+                android:id="@+id/nav_movie"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Movie" />
+        </menu>
+    </item>
+
+</menu>
